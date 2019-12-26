@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Frag1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textSize="30dp"
+            android:text="Add Event"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            android:text="Start Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:textColor="#000000"
+            android:id="@+id/startText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            android:text="End Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:textColor="#000000"
+            android:id="@+id/endText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            android:text="Event Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:gravity="center"
+            android:text="please input text"
+            android:textColor="#cccccccc"
+
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:textSize="30dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:id="@+id/textText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:text="ADD EVENT"
+            android:id="@+id/addBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

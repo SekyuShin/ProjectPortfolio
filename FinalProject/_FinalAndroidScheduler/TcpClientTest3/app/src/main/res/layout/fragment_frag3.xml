@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Frag3">
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textSize="40dp"
+            android:text="hello"
+            android:layout_weight="1"
+            android:id="@+id/popText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textSize="40dp"
+            android:text="hello"
+            android:layout_weight="1"
+            android:id="@+id/ptyText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textSize="40dp"
+            android:text="hello"
+            android:layout_weight="1"
+            android:id="@+id/skyText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textSize="40dp"
+            android:text="hello"
+            android:layout_weight="1"
+            android:id="@+id/t1hText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textSize="40dp"
+            android:text="hello"
+            android:layout_weight="1"
+            android:id="@+id/tmnText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textSize="40dp"
+            android:text="hello"
+            android:layout_weight="1"
+            android:id="@+id/tmxText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</FrameLayout>
