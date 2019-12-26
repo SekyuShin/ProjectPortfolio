@@ -1,0 +1,55 @@
+# Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, the Altera Quartus Prime License Agreement,
+# the Altera MegaCore Function License Agreement, or other 
+# applicable license agreement, including, without limitation, 
+# that your use is for the sole purpose of programming logic 
+# devices manufactured by Altera and sold by Altera or its 
+# authorized distributors.  Please refer to the applicable 
+# agreement for further details.
+
+# Quartus Prime Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
+# File: D:\vhdlProjects\SmartClock\SmartClock_complete_serial.csv
+# Generated on: Fri Dec 07 19:45:24 2018
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Strict Preservation
+bell,Output,PIN_AB18,4,B4_N1,PIN_K7,2.5 V,,,,,
+clk_50m,Input,PIN_AB11,3,B3_N0,PIN_AB11,2.5 V,,,,,
+e,Output,PIN_D10,8,B8_N0,PIN_D10,2.5 V,,,,,
+lcd_data[7],Output,PIN_H11,8,B8_N1,PIN_H11,2.5 V,,,,,
+lcd_data[6],Output,PIN_G9,8,B8_N3,PIN_G9,2.5 V,,,,,
+lcd_data[5],Output,PIN_G11,8,B8_N0,PIN_G11,2.5 V,,,,,
+lcd_data[4],Output,PIN_F9,8,B8_N3,PIN_F9,2.5 V,,,,,
+lcd_data[3],Output,PIN_G8,8,B8_N3,PIN_G8,2.5 V,,,,,
+lcd_data[2],Output,PIN_G10,8,B8_N2,PIN_G10,2.5 V,,,,,
+lcd_data[1],Output,PIN_F8,8,B8_N3,PIN_F8,2.5 V,,,,,
+lcd_data[0],Output,PIN_F10,8,B8_N2,PIN_F10,2.5 V,,,,,
+push,Input,PIN_J3,1,B1_N3,PIN_N1,,,,,,
+rs,Output,PIN_E9,8,B8_N1,PIN_E9,2.5 V,,,,,
+rw,Output,PIN_E10,8,B8_N0,PIN_E10,2.5 V,,,,,
+rx,Input,PIN_B4,8,B8_N3,PIN_B4,2.5 V,,,,,
+seg_com[7],Output,PIN_H8,1,B1_N1,PIN_H8,2.5 V,,,,,
+seg_com[6],Output,PIN_G5,1,B1_N0,PIN_G5,2.5 V,,,,,
+seg_com[5],Output,PIN_F2,1,B1_N1,PIN_F2,2.5 V,,,,,
+seg_com[4],Output,PIN_E3,1,B1_N0,PIN_E3,2.5 V,,,,,
+seg_com[3],Output,PIN_K8,1,B1_N2,PIN_K8,2.5 V,,,,,
+seg_com[2],Output,PIN_J5,1,B1_N2,PIN_J5,2.5 V,,,,,
+seg_com[1],Output,PIN_J6,1,B1_N1,PIN_J6,2.5 V,,,,,
+seg_com[0],Output,PIN_J7,1,B1_N2,PIN_J7,2.5 V,,,,,
+seg_out[7],Output,PIN_H7,1,B1_N1,PIN_H7,2.5 V,,,,,
+seg_out[6],Output,PIN_H6,1,B1_N1,PIN_H6,2.5 V,,,,,
+seg_out[5],Output,PIN_H5,1,B1_N2,PIN_H5,2.5 V,,,,,
+seg_out[4],Output,PIN_J8,1,B1_N1,PIN_J8,2.5 V,,,,,
+seg_out[3],Output,PIN_H10,8,B8_N1,PIN_H10,2.5 V,,,,,
+seg_out[2],Output,PIN_B2,1,B1_N0,PIN_B2,2.5 V,,,,,
+seg_out[1],Output,PIN_C2,1,B1_N1,PIN_C2,2.5 V,,,,,
+seg_out[0],Output,PIN_D2,1,B1_N1,PIN_D2,2.5 V,,,,,
+sw_restn,Input,PIN_E4,1,B1_N0,PIN_E4,2.5 V,,,,,
+tx,Output,PIN_B3,8,B8_N3,PIN_B3,2.5 V,,,,,

@@ -1,0 +1,133 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "seg_com[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_com[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_com[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_com[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_com[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_com[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_com[6]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_com[7]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "e",
+					"strict" : false
+				},
+				{
+					"name" : "rs",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "bell",
+					"strict" : false
+				},
+				{
+					"name" : "sw_restn",
+					"strict" : false
+				},
+				{
+					"name" : "clk_50m",
+					"strict" : false
+				},
+				{
+					"name" : "push",
+					"strict" : false
+				},
+				{
+					"name" : "rx",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

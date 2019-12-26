@@ -1,0 +1,6 @@
+m_cnt:=0;
+while( m_cnt < 16) loop
+msg(1,m_cnt) <=a_msg(m_cnt*8+7 downto m_cnt*8);
+m_cnt:=m_cnt+1;
+end loop;
+

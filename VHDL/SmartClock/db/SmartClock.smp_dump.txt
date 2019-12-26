@@ -1,0 +1,21 @@
+
+State Machine - |SmartClock|uart_test:bluetooth_uart|UART:UART_inst|uart_rx_state
+Name uart_rx_state.rx_get_stop_bit uart_rx_state.rx_get_data uart_rx_state.rx_get_start_bit uart_rx_state.rx_wait_start_synchronise 
+uart_rx_state.rx_wait_start_synchronise 0 0 0 0 
+uart_rx_state.rx_get_start_bit 0 0 1 1 
+uart_rx_state.rx_get_data 0 1 0 1 
+uart_rx_state.rx_get_stop_bit 1 0 0 1 
+
+State Machine - |SmartClock|uart_test:bluetooth_uart|UART:UART_inst|uart_tx_state
+Name uart_tx_state.send_stop_bit uart_tx_state.transmit_data uart_tx_state.send_start_bit uart_tx_state.wait_for_tick uart_tx_state.idle 
+uart_tx_state.idle 0 0 0 0 0 
+uart_tx_state.wait_for_tick 0 0 0 1 1 
+uart_tx_state.send_start_bit 0 0 1 0 1 
+uart_tx_state.transmit_data 0 1 0 0 1 
+uart_tx_state.send_stop_bit 1 0 0 0 1 
+
+State Machine - |SmartClock|lcd_display:display|lcd:lcd_control|state
+Name state.t2 state.t1 state.t0 
+state.t0 0 0 0 
+state.t1 0 1 1 
+state.t2 1 0 1 
